@@ -1,0 +1,23 @@
+{
+  "name": "motionface-op55-handdrawn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "手绘纸张风 16:9 口播短片(Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Main out/video.mp4 --codec=h264 --audio-codec=aac",
+    "still": "remotion still Main out/still.png --frame=120",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/zcool-kuaile": "5.3.0",
+    "@remotion/cli": "4.0.532",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+out/
+.env
+.env.*
+# 口播原音是私有素材,不入库
+public/private/
+*.webm
